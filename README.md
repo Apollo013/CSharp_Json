@@ -1,5 +1,5 @@
 # CSharp_Json
-A small console application that demonstrates how to read / write json files using NewtonSoft Json &amp; Javascript Serialzer. Also demonstrates use of abstract classes, inheritance, generics, a custom observable list, an INotifyCollectionChanged implementation that updates the UI when a change is made to the list.
+A small console application that demonstrates how to read / write json files using NewtonSoft Json &amp; Javascript Serialzer. Also demonstrates use of abstract classes, inheritance, generics, a custom observable list, an INotifyCollectionChanged implementation that updates the UI when a change is made to the list (adding or removing).
 
 ###Technologies###
 * VS2015
