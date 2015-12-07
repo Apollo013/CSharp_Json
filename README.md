@@ -14,7 +14,7 @@ A small console application that demonstrates how to read / write json files usi
 * Custom Observable List
 
 ###Overview###
-The app allows you to add new 'members' to a list. 
+The app allows you to manage 'members' in a list and saves them to file.
 
 The main program class displays the options for adding, removing and showing members. There is also another option for quitting the program. 
 
