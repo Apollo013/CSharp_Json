@@ -1,0 +1,8 @@
+C:\App Tests\Json\WrokingWithJson\WrokingWithJson\bin\Debug\WrokingWithJson.exe.config
+C:\App Tests\Json\WrokingWithJson\WrokingWithJson\bin\Debug\WrokingWithJson.exe
+C:\App Tests\Json\WrokingWithJson\WrokingWithJson\bin\Debug\WrokingWithJson.pdb
+C:\App Tests\Json\WrokingWithJson\WrokingWithJson\bin\Debug\Newtonsoft.Json.dll
+C:\App Tests\Json\WrokingWithJson\WrokingWithJson\bin\Debug\Newtonsoft.Json.xml
+C:\App Tests\Json\WrokingWithJson\WrokingWithJson\obj\Debug\WrokingWithJson.csprojResolveAssemblyReference.cache
+C:\App Tests\Json\WrokingWithJson\WrokingWithJson\obj\Debug\WrokingWithJson.exe
+C:\App Tests\Json\WrokingWithJson\WrokingWithJson\obj\Debug\WrokingWithJson.pdb
