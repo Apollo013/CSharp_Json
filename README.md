@@ -18,6 +18,7 @@ Built using VS2015 Community
 
 ####Overview
 |Description|
+|-----------|
 |The app allows you to manage 'members' in a list and save them to file.|
 |The main program class displays the options for adding, removing and showing members. There is also another option for quitting the program. |
 |The 'Person' class holds the details of each member. |
