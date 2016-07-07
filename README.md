@@ -7,9 +7,9 @@ Built using VS2015 Community
 ####Main Features
 |Feature |Description |
 |--------|------------|
-|NewtonSoft.Json| |
-|JavaScriptSerializer| |
-|DataContractJsonSerialization| |
+|NewtonSoft.Json| Demonstrates 'JsonConvert.DeserializeObject' & 'JsonConvert.SerializeObject' |
+|JavaScriptSerializer| Demonstrates 'JavaScriptSerializer.Deserialize' & 'JavaScriptSerializer.Serialize |
+|DataContractJsonSerialization| Demonstrates 'DataContractJsonSerializer' to write to a MemoryStream object and then reads from from the MemoryStrem object using 'StreamReader'|
 |Abstraction| Both NewtonSoft.Json & JavaScriptSerializer classes derive from 'JsonBase' abstract class and override 2 methods |
 ---
 
