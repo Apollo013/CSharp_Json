@@ -3,7 +3,7 @@ using System.Collections.ObjectModel;
 using System.Collections.Specialized;
 using System.IO;
 
-namespace WrokingWithJson
+namespace WrokingWithJson.Examples
 {
     public abstract class JsonBase<T> : INotifyCollectionChanged
     {
@@ -68,7 +68,7 @@ namespace WrokingWithJson
                     Console.WriteLine("Member added\n");
                     break;
                 case NotifyCollectionChangedAction.Replace:
-                    Console.WriteLine("Member replaces\n");
+                    Console.WriteLine("Member replaced\n");
                     break;
                 case NotifyCollectionChangedAction.Remove:
                     Console.WriteLine("Member removed\n");

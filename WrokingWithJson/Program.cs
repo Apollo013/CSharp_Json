@@ -1,8 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using WrokingWithJson.Examples;
+using WrokingWithJson.Models;
 
 namespace WrokingWithJson
 {
@@ -11,11 +9,13 @@ namespace WrokingWithJson
         static void Main(string[] args)
         {
             string fileName = "json2.json";
-            //var NewtonJsonInstance = new NewtonSoftSerialization<Person>(fileName);
-            //JsonTest(NewtonJsonInstance);
 
-            var JavaScriptJsonInstance = new JavascriptSerialization<Person>(fileName);
-            JsonTest(JavaScriptJsonInstance);
+            // UNCOMMENT THIS SECTION TO RUN NEWTON VERSION (COMMENT JAVASCRIPTSERIALIZER BLOCK)
+            var NewtonJsonInstance = new NewtonSoftSerialization<Person>(fileName);
+            JsonTest(NewtonJsonInstance);
+
+            //var JavaScriptJsonInstance = new JavascriptSerialization<Person>(fileName);
+            //JsonTest(JavaScriptJsonInstance);
         }
 
 
@@ -31,7 +31,7 @@ namespace WrokingWithJson
                 Console.WriteLine("Press 'a' to Add a new Member");
                 Console.WriteLine("Press 'd' to Delete a Member");
                 Console.WriteLine("Press 's' to Show Members");
-                Console.WriteLine("Press 'q' to Quit Program");
+                Console.WriteLine("Press 'q' to Save & Quit Program");
                 Console.WriteLine("Enter Command:");
                 command = Console.ReadLine();
 

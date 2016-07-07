@@ -3,7 +3,7 @@ using System;
 using System.Collections.ObjectModel;
 using System.IO;
 
-namespace WrokingWithJson
+namespace WrokingWithJson.Examples
 {
     public class NewtonSoftSerialization<T> : JsonBase<T>
     {
@@ -52,7 +52,7 @@ namespace WrokingWithJson
             {
                 if (this.HasChanges)
                 {
-                    string json = JsonConvert.SerializeObject(this.DataItemList);
+                    string json = JsonConvert.SerializeObject(DataItemList);
                     base.WriteFile(json);
                 }
                 

@@ -3,7 +3,7 @@ using System.Collections.ObjectModel;
 using System.IO;
 using System.Web.Script.Serialization;
 
-namespace WrokingWithJson
+namespace WrokingWithJson.Examples
 {
     public class JavascriptSerialization<T> : JsonBase<T>
     {
