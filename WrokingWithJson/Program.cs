@@ -10,12 +10,13 @@ namespace WrokingWithJson
         {
             string fileName = "json2.json";
 
-            // UNCOMMENT THIS SECTION TO RUN NEWTON VERSION (COMMENT JAVASCRIPTSERIALIZER BLOCK)
-            var NewtonJsonInstance = new NewtonSoftSerialization<Person>(fileName);
-            JsonTest(NewtonJsonInstance);
+            //var NewtonJsonInstance = new NewtonSoftSerialization<Person>(fileName);
+            //JsonTest(NewtonJsonInstance);
 
             //var JavaScriptJsonInstance = new JavascriptSerialization<Person>(fileName);
             //JsonTest(JavaScriptJsonInstance);
+
+            DataContractJsonSerialization.Run();
         }
 
 

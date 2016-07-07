@@ -49,6 +49,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Examples\DataContractJsonSerialization.cs" />
     <Compile Include="Examples\JavascriptSerialization.cs" />
     <Compile Include="Examples\JsonBase.cs" />
     <Compile Include="Examples\NewtonSoftSerialization.cs" />
