@@ -9,7 +9,7 @@ Built using VS2015 Community
 |--------|------------|
 |NewtonSoft.Json| Demonstrates 'JsonConvert.DeserializeObject' & 'JsonConvert.SerializeObject' |
 |JavaScriptSerializer| Demonstrates 'JavaScriptSerializer.Deserialize' & 'JavaScriptSerializer.Serialize |
-|DataContractJsonSerialization| Demonstrates 'DataContractJsonSerializer' to write to a MemoryStream object and then reads from from the MemoryStrem object using 'StreamReader'|
+|DataContractJsonSerialization| Demonstrates 'DataContractJsonSerializer' to write to a MemoryStream object and then reads from from that object using 'StreamReader'|
 |Abstraction| Both NewtonSoft.Json & JavaScriptSerializer classes derive from 'JsonBase' abstract class and override 2 abstract methods - 'ParseJsonFile' & 'SaveJsonFile' |
 |File IO | Data is read from and written to a text file using 'File.ReadAllText' & 'File.WriteAllText' |
 | Collection Changed Event Handling | As the examples use an ObservableCollection(T), we have written a custom delegate that handles INotifyCollectionChanged events |
